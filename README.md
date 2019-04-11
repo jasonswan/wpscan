@@ -39,6 +39,8 @@ gem install wpscan
 
 On MacOSX, if a ```Gem::FilePermissionError``` is raised due to the Apple's System Integrity Protection (SIP), either install RVM and install wpscan again, or run ```sudo gem install -n /usr/local/bin wpscan``` (see [#1286](https://github.com/wpscanteam/wpscan/issues/1286))
 
+On Ubuntu, the following packages may be needed: ```sudo apt-get install ruby-dev``` ```sudo apt-get install libxml2-dev``` ```sudo apt-get install zlib1g-dev``` to satisfy nokogiri dependencies.
+
 ### From sources (NOT Recommended)
 
 Prerequisites: Git
